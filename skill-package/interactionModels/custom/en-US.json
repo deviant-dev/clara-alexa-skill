@@ -1,0 +1,114 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "clara",
+      "intents": [
+        {
+          "name": "GreetingIntent",
+          "slots": [],
+          "samples": [
+            "good morning",
+            "hello",
+            "hey",
+            "hi",
+            "good evening",
+            "good afternoon",
+            "wake up",
+            "rise and shine",
+            "eyes up"
+          ]
+        },
+        {
+          "name": "CheckInIntent",
+          "slots": [],
+          "samples": [
+            "check in",
+            "how are you",
+            "how are you doing",
+            "what's your status",
+            "status report",
+            "are you there",
+            "you there"
+          ]
+        },
+        {
+          "name": "TaskStatusIntent",
+          "slots": [],
+          "samples": [
+            "what tasks are due",
+            "task status",
+            "check my tasks",
+            "what do I need to do",
+            "any tasks",
+            "what's on the board",
+            "task report"
+          ]
+        },
+        {
+          "name": "AffirmationIntent",
+          "slots": [],
+          "samples": [
+            "I finished my tasks",
+            "tasks done",
+            "I did it",
+            "completed",
+            "done",
+            "finished",
+            "I'm done",
+            "mission accomplished"
+          ]
+        },
+        {
+          "name": "GoodNightIntent",
+          "slots": [],
+          "samples": [
+            "good night",
+            "goodnight",
+            "going to bed",
+            "heading to sleep",
+            "night night",
+            "sleep well",
+            "time for bed"
+          ]
+        },
+        {
+          "name": "FreeformIntent",
+          "slots": [
+            {
+              "name": "message",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "say {message}",
+            "tell me {message}",
+            "{message}",
+            "pass along {message}",
+            "relay {message}"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  }
+}

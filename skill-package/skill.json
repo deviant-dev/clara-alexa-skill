@@ -1,0 +1,55 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-clara-skill"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false,
+      "locales": {
+        "en-US": {
+          "privacyPolicyUrl": "",
+          "termsOfUseUrl": ""
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Clara Hart - personal assistant and household companion",
+          "examplePhrases": [
+            "Alexa, tell clara good morning",
+            "Alexa, ask clara to check in",
+            "Alexa, tell clara eyes up"
+          ],
+          "keywords": [
+            "assistant",
+            "clara",
+            "companion"
+          ],
+          "name": "Clara Hart",
+          "description": "Clara Hart is a personal household companion and assistant. She can check in, deliver reminders, respond to greetings, and participate in household rituals.",
+          "smallIconUri": "",
+          "largeIconUri": ""
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Personal skill for household use.",
+      "category": "NOVELTY_HUMOR",
+      "distributionMode": "PRIVATE",
+      "distributionCountries": [
+        "US"
+      ]
+    }
+  }
+}
